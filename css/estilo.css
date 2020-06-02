@@ -79,7 +79,7 @@ header {
 }
 
 .container {
-  max-width: 1920px;
+  max-width: 2560px;
   margin: auto;
   width: 100%;
 }
@@ -446,7 +446,7 @@ h4 {
 
 @media(min-width:700px) and (max-width:900px){
     header{
-        height: 53vh;
+        height: 82vh;
     }
 
     h1 {
@@ -457,17 +457,28 @@ h4 {
         font-size: 25px;
     }
 
+    .titular{
+      margin-top: 100px;
+    }
+
     .container-sobremi img{
-        width: 70%;
+        width: 48%;
     }
 
     .servicios p{
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .singular p{
         font-size: 20px;
     }
+
+    .servicios img{
+      width: 85%;
+    }
+
+
+
 
 }
 
@@ -483,4 +494,85 @@ h4 {
         left: 1%;
         z-index: 2;
     }
+}
+
+
+/*Pantallas grandes*/
+@media (min-width: 1800px) {
+  header{
+    height:70vh;
+    
+  }
+
+  h1{
+    font-size: 70px;
+  }
+
+  .container-sobremi img{
+    width: 33%;
+  }
+
+  .container-sobremi p{
+    font-size: 25px;
+  }
+
+  .container-sobremi a{
+    padding: 25px 50px 25px 50px;
+    font-size: 25px;
+  }
+
+  .servicios img{
+    width: 70%;
+  }
+
+  .servicios p{
+    font-size: 22px;
+  }
+
+  .porque-trabajarconmigo h4{
+    font-size: 30px;
+  }
+
+  .porque-trabajarconmigo p {
+    font-size: 23px;
+  }
+
+  .porque-trabajarconmigo {
+    margin-bottom: 100px;
+  }
+
+  #secblog h4{
+    font-size: 30px;
+  }
+
+  #secblog p{
+    font-size: 25px;
+  }
+
+  #secblog a{
+    padding: 30px 50px 30px 50px;
+    font-size: 20px;
+  }
+
+  #secesperas h3{
+    font-size: 50px;
+  }
+
+  #secesperas a{
+    padding: 30px 50px 30px 50px;
+    font-size: 30px;
+  }
+
+  #secesperas{
+    padding-bottom: 50px;
+  }
+
+  .creditos{
+    font-size: 30px;
+  }
+
+  #gear{
+    font-size: 30px;
+  }
+
 }
