@@ -3,307 +3,315 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 li {
-  list-style: none;
-  font-family: "Acme", sans-serif;
-  color: white;
-  margin-right: 25px;
-  cursor: pointer;
+    list-style: none;
+    font-family: "Acme", sans-serif;
+    color: white;
+    margin-right: 25px;
+    cursor: pointer;
 }
 
 ul {
-  display: flex;
+    display: flex;
 }
 
 .menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
 }
 
 a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .titular a {
-  text-decoration: none;
-  color: white;
-  font-size: 14px;
-  background: #5cb8ff;
-  padding: 20px 30px 20px 30px;
-  border-radius: 50px;
-  cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background: #5cb8ff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 50px;
+    cursor: pointer;
 }
 
 .container-parbot a {
-  text-decoration: none;
-  color: white;
-  font-size: 14px;
-  background: #5cb8ff;
-  padding: 20px 30px 20px 30px;
-  border-radius: 50px;
-  cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background: #5cb8ff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 50px;
+    cursor: pointer;
 }
 
 .titular {
-  text-align: center;
-  margin-top: 200px;
+    text-align: center;
+    margin-top: 200px;
 }
 
 h1 {
-  font-family: "Lobster", cursive;
-  font-size: 60px;
-  color: white;
-  margin: 0px;
-  text-shadow: 2px 2px black;
+    font-family: "Lobster", cursive;
+    font-size: 60px;
+    color: white;
+    margin: 0px;
+    text-shadow: 2px 2px black;
 }
 
 h2 {
-  font-size: 25px;
-  margin-bottom: 40px;
-  color: white;
-  text-shadow: 2px 2px black;
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 
 header {
-  background: url("../images/back2.jpg");
-  height: 100vh;
-  background-size: cover;
+    background: url("../images/back2.jpg");
+    height: 100vh;
+    background-size: cover;
 }
 
 .container {
-  max-width: 2560px;
-  margin: auto;
-  width: 100%;
+    max-width: 2560px;
+    margin: auto;
+    width: 100%;
 }
 
 .logo {
-  font-size: 20px;
-  font-family: "Lobster", cursive;
-  color: white;
-  margin-left: 25px;
+    font-size: 20px;
+    font-family: "Lobster", cursive;
+    color: white;
+    margin-left: 25px;
 }
+
 
 /* Arranca seccion sobre mi */
 
 h3 {
-  font-family: "Dosis", sans-serif;
-  font-size: 55px;
-  font-weight: normal;
-  text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-size: 55px;
+    font-weight: normal;
+    text-align: center;
 }
 
 .container-sobremi {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .container-parbot {
-  width: 42%;
+    width: 42%;
 }
 
 .container-sobremi p {
-  font-family: "Fira Sans Condensed", sans-serif;
+    font-family: "Fira Sans Condensed", sans-serif;
 }
 
 .container-parbot a {
-  display: inline-block;
-  margin-top: 10px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 #ilogo {
-  color: #5cb8ff;
-  font-size: 15px;
+    color: #5cb8ff;
+    font-size: 15px;
 }
 
 .btn-card {
-  border: none;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
 }
 
+
 /*Servicios*/
+
 .container-service {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .servicios {
-  width: 25%;
-  padding: 30px 38px 30px 38px;
-  border-radius: 10px;
-  margin-bottom: 40px;
-  color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 25%;
+    padding: 30px 38px 30px 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .dark {
-  background: #5cb8ff;
+    background: #5cb8ff;
 }
 
 .light {
-  background: #5cb8ff;
+    background: #5cb8ff;
 }
 
 .servicios h4 {
-  font-family: "Roboto", sans-serif;
-  color: white;
-  text-shadow: 1px 1px #000;
-  text-align: center;
-  font-size: 30px;
-  margin: 0px 0px 30px 0px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-shadow: 1px 1px #000;
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 0px 30px 0px;
 }
 
 .servicios button {
-  float: right;
+    float: right;
 }
 
 .servicios p {
-  height: 160px;
+    height: 160px;
 }
 
 .servicios img {
-  display: block;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 span {
-  font-size: 50px;
-  color: #5cb8ff;
+    font-size: 50px;
+    color: #5cb8ff;
 }
 
 .owl-nav {
-  text-align: center;
+    text-align: center;
 }
+
 
 /* Footer */
 
 footer {
-  background-color: #5cb8ff;
-  font-family: "Fira Sans Condensed", sans-serif;
-  color: white;
-  text-align: center;
-  padding: 30px;
+    background-color: #5cb8ff;
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
 
+
 /*Boton ir arriba*/
+
 .ir-arriba {
-  display: none;
-  padding: 20px;
-  background: #5cb8ff;
-  font-size: 20px;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 100px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 2;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+    padding: 20px;
+    background: #5cb8ff;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #veloz {
-  color: #5cb8ff;
-  font-size: 50px;
+    color: #5cb8ff;
+    font-size: 50px;
 }
 
 .porque-trabajarconmigo {
-  display: flex;
-  text-align: center;
-  font-family: "Fira Sans Condensed", sans-serif;
-  justify-content: space-around;
+    display: flex;
+    text-align: center;
+    font-family: "Fira Sans Condensed", sans-serif;
+    justify-content: space-around;
 }
 
 .porque-trabajarconmigo h4 {
-  font-size: 17px;
+    font-size: 17px;
 }
 
 .porque-trabajarconmigo p {
-  font-size: 15px;
-  line-height: 26px;
+    font-size: 15px;
+    line-height: 26px;
 }
 
 .singular {
-  width: 28%;
+    width: 28%;
 }
 
 .contenedor-pub a {
-  text-decoration: none;
-  color: white;
-  font-size: 14px;
-  background: #5cb8ff;
-  padding: 20px 30px 20px 30px;
-  border-radius: 50px;
-  cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background: #5cb8ff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 50px;
+    cursor: pointer;
 }
 
 #secblog {
-  background: #f7f7f7;
-  padding-top: 20px;
-  padding-bottom: 30px;
+    background: #f7f7f7;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .contenedor-pub {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 #pubitem {
-  width: 30%;
-  box-shadow: 1px 1px 14px #ccc;
-  padding-bottom: 20px;
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;
+    padding-bottom: 20px;
 }
 
 #secblog img {
-  width: 100%;
+    width: 100%;
 }
 
 #secblog h4 {
-  margin: 0;
-  padding: 20px;
+    margin: 0;
+    padding: 20px;
 }
 
 #secblog p {
-  color: #5a6169;
-  line-height: 28px;
-  font-size: 18px;
-  padding: 10px 20px 20px 20px;
-  margin: 0px;
+    color: #5a6169;
+    line-height: 28px;
+    font-size: 18px;
+    padding: 10px 20px 20px 20px;
+    margin: 0px;
 }
 
 #secblog a {
-  display: inline-block;
-  margin-left: 20px;
+    display: inline-block;
+    margin-left: 20px;
 }
+
 
 /*Que esperas para tu pagina*/
 
 #secesperas {
- background: #5cb8ff;
- padding-top: 10px;
- text-align: center;
+    background: #5cb8ff;
+    padding-top: 10px;
+    text-align: center;
 }
-#secesperas h3{
+
+#secesperas h3 {
     font-size: 27px;
     color: white;
 }
@@ -319,11 +327,12 @@ footer {
     transition: 1s;
 }
 
-#secesperas a:hover{
-    background: #43ADFF ;
-    color:#DFE1E3;
+#secesperas a:hover {
+    background: #43ADFF;
+    color: #DFE1E3;
     transition: 1s;
 }
+
 
 /*
 .btn-charlar {
@@ -336,16 +345,17 @@ footer {
   margin: auto;
 } */
 
+
 /*whatsapp*/
 
-#whatsapp a{
+#whatsapp a {
     position: fixed;
     top: 90%;
     left: 1%;
     z-index: 2;
 }
 
-#menu-icon{
+#menu-icon {
     display: none;
 }
 
@@ -354,141 +364,112 @@ h4 {
     text-align: center;
 }
 
+
 /*Media Queries*/
 
-
 @media (max-width:800px) {
-    
-    header{
-        height:50vh;
+    header {
+        height: 50vh;
     }
-
-    nav{
+    nav {
         position: absolute;
         top: 70px;
         left: 0px;
-        background:#5cb8ff;
+        background: rgba(0, 0, 0, 0.5);
         width: 100%;
         display: none;
+        text-align: center;
     }
-
-    nav .lista{
+    nav .lista {
         flex-direction: column;
         display: flex;
     }
-
-    #menu-icon{
+    #menu-icon {
         display: block;
         margin-right: 20px;
         font-size: 25px;
         width: 25px;
         color: white;
     }
-
-    .titular{
+    .titular {
         margin-top: 54px;
     }
-
     h1 {
         font-size: 40px;
     }
-
     h2 {
         font-size: 18px;
     }
-
-    .container-sobremi{
+    .container-sobremi {
         display: flex;
         flex-direction: column;
     }
-
-    .container-sobremi img{
+    .container-sobremi img {
         width: 90%;
     }
-
-    .container-parbot{
+    .container-parbot {
         width: 95%;
     }
-
-    .container-service{
+    .container-service {
         flex-direction: column;
     }
-
-    .servicios{
+    .servicios {
         width: 72%;
-        margin:auto;
+        margin: auto;
         margin-bottom: 15px;
     }
-
-    .servicios img{
+    .servicios img {
         width: 90%;
     }
-
-    .porque-trabajarconmigo{
+    .porque-trabajarconmigo {
         flex-direction: column;
     }
-
-    .singular{
+    .singular {
         width: 90%;
         margin: auto;
     }
-
-    .contenedor-pub{
+    .contenedor-pub {
         flex-direction: column;
     }
-
-    #pubitem{
+    #pubitem {
         width: 90%;
         margin: auto;
         margin-bottom: 15px;
     }
 }
 
-@media(min-width:700px) and (max-width:900px){
-    header{
+@media(min-width:700px) and (max-width:900px) {
+    header {
         height: 82vh;
     }
-
     h1 {
         font-size: 50px;
     }
-
     h2 {
         font-size: 25px;
     }
-
-    .titular{
-      margin-top: 100px;
+    .titular {
+        margin-top: 100px;
     }
-
-    .container-sobremi img{
+    .container-sobremi img {
         width: 48%;
     }
-
-    .servicios p{
+    .servicios p {
         font-size: 15px;
     }
-
-    .singular p{
+    .singular p {
         font-size: 20px;
     }
-
-    .servicios img{
-      width: 85%;
+    .servicios img {
+        width: 85%;
     }
-
-
-
-
 }
 
 @media (min-width:310px) and (max-width:799px) and (orientation:landscape) {
-    
-    header{
-        height:80vh;
+    header {
+        height: 80vh;
     }
-
-    #whatsapp img{
+    #whatsapp img {
         position: fixed;
         top: 80%;
         left: 1%;
@@ -498,89 +479,69 @@ h4 {
 
 
 /*Pantallas grandes*/
+
 @media (min-width: 1800px) {
-  header{
-    height:70vh;
-    
-  }
-
-  h1{
-    font-size: 70px;
-  }
-
-  .container-sobremi img{
-    width: 33%;
-  }
-
-  .container-sobremi p{
-    font-size: 25px;
-  }
-
-  .container-sobremi a{
-    padding: 25px 50px 25px 50px;
-    font-size: 25px;
-  }
-
-  .servicios img{
-    width: 70%;
-  }
-
-  .servicios p{
-    font-size: 22px;
-  }
-
-  .porque-trabajarconmigo h4{
-    font-size: 30px;
-  }
-
-  .porque-trabajarconmigo p {
-    font-size: 23px;
-  }
-
-  .porque-trabajarconmigo {
-    margin-bottom: 100px;
-  }
-
-  #secblog h4{
-    font-size: 30px;
-  }
-
-  #secblog p{
-    font-size: 25px;
-  }
-
-  #secblog a{
-    padding: 30px 50px 30px 50px;
-    font-size: 20px;
-  }
-
-  #secesperas h3{
-    font-size: 50px;
-  }
-
-  #secesperas a{
-    padding: 30px 50px 30px 50px;
-    font-size: 30px;
-  }
-
-  #secesperas{
-    padding-bottom: 50px;
-  }
-
-  .creditos{
-    font-size: 30px;
-  }
-
-  #gear{
-    font-size: 30px;
-  }
-
-  li{
-    font-size: 25px;
-  }
-
-  .menu p{
-    font-size: 30px;
-  }
-
+    header {
+        height: 70vh;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    .container-sobremi img {
+        width: 33%;
+    }
+    .container-sobremi p {
+        font-size: 25px;
+    }
+    .container-sobremi a {
+        padding: 25px 50px 25px 50px;
+        font-size: 25px;
+    }
+    .servicios img {
+        width: 70%;
+    }
+    .servicios p {
+        font-size: 22px;
+    }
+    .porque-trabajarconmigo h4 {
+        font-size: 30px;
+    }
+    .porque-trabajarconmigo p {
+        font-size: 23px;
+    }
+    .porque-trabajarconmigo {
+        margin-bottom: 100px;
+    }
+    #secblog h4 {
+        font-size: 30px;
+    }
+    #secblog p {
+        font-size: 25px;
+    }
+    #secblog a {
+        padding: 30px 50px 30px 50px;
+        font-size: 20px;
+    }
+    #secesperas h3 {
+        font-size: 50px;
+    }
+    #secesperas a {
+        padding: 30px 50px 30px 50px;
+        font-size: 30px;
+    }
+    #secesperas {
+        padding-bottom: 50px;
+    }
+    .creditos {
+        font-size: 30px;
+    }
+    #gear {
+        font-size: 30px;
+    }
+    li {
+        font-size: 25px;
+    }
+    .menu p {
+        font-size: 30px;
+    }
 }
